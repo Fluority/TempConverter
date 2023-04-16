@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Un-wL-CMf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Un-wL-CMf">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,8 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="ifO-SZ-rd3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp Converter from Cº to Fº , Kº" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-6R-3IK">
-                                <rect key="frame" x="72.5" y="124" width="175" height="65"/>
+                                <rect key="frame" x="72.5" y="104" width="175" height="65"/>
                                 <color key="backgroundColor" red="1" green="0.10832007148182621" blue="0.20868239984675951" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="175" id="6Qj-Gs-cI8"/>
@@ -28,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C º" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyJ-Fr-e7H">
-                                <rect key="frame" x="121" y="222" width="78" height="43"/>
+                                <rect key="frame" x="121" y="202" width="78" height="43"/>
                                 <color key="backgroundColor" red="0.83149164919999996" green="0.33564955000000002" blue="0.31222864989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="JZo-U7-68A"/>
@@ -39,7 +43,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fº" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcE-jj-pzG">
-                                <rect key="frame" x="123" y="339" width="74" height="42"/>
+                                <rect key="frame" x="123" y="319" width="74" height="42"/>
                                 <color key="backgroundColor" red="0.83149164919999996" green="0.33564955000000002" blue="0.31222864989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="IYW-22-0kh"/>
@@ -61,7 +65,7 @@
                                 </connections>
                             </segmentedControl>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" minimumValueImage="sun.max" catalog="system" maximumValueImage="sun.max.fill" translatesAutoresizingMaskIntoConstraints="NO" id="9rZ-dt-BvS">
-                                <rect key="frame" x="31" y="284" width="258" height="31"/>
+                                <rect key="frame" x="31" y="264" width="258" height="31"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <color key="minimumTrackTintColor" systemColor="systemYellowColor"/>
                                 <color key="thumbTintColor" systemColor="systemPinkColor"/>
@@ -75,13 +79,17 @@
                         <constraints>
                             <constraint firstItem="eyt-oV-Ose" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="4xD-QF-HfL"/>
                             <constraint firstItem="Ofi-6R-3IK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11.5" id="8B7-OT-Tem"/>
+                            <constraint firstItem="ifO-SZ-rd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D8q-s7-5MP"/>
+                            <constraint firstItem="ifO-SZ-rd3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HVp-nE-Ft6"/>
                             <constraint firstItem="Ofi-6R-3IK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HgS-k0-tzL"/>
                             <constraint firstItem="9rZ-dt-BvS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aAF-7C-lx2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eyt-oV-Ose" secondAttribute="bottom" constant="57" id="aZ6-6l-5l2"/>
                             <constraint firstItem="eyt-oV-Ose" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bOw-OR-d4I"/>
                             <constraint firstItem="9rZ-dt-BvS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="bh2-aO-hSg"/>
+                            <constraint firstItem="ifO-SZ-rd3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dcP-AH-W8x"/>
                             <constraint firstItem="MyJ-Fr-e7H" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="h64-6v-hda"/>
                             <constraint firstItem="OcE-jj-pzG" firstAttribute="top" secondItem="9rZ-dt-BvS" secondAttribute="bottom" constant="25" id="iXJ-yh-8wM"/>
+                            <constraint firstItem="ifO-SZ-rd3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jEq-Qw-3Tz"/>
                             <constraint firstItem="OcE-jj-pzG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nrx-7A-XNE"/>
                             <constraint firstItem="9rZ-dt-BvS" firstAttribute="top" secondItem="MyJ-Fr-e7H" secondAttribute="bottom" constant="19" id="rkJ-0o-Kkv"/>
                             <constraint firstItem="MyJ-Fr-e7H" firstAttribute="top" secondItem="Ofi-6R-3IK" secondAttribute="bottom" constant="33" id="uKS-Q0-qla"/>
@@ -107,7 +115,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Un-wL-CMf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="fPm-fd-kS1">
-                        <rect key="frame" x="0.0" y="20" width="320" height="92.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -121,6 +129,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Wallpaper" width="900" height="1600"/>
         <image name="sun.max" catalog="system" width="128" height="125"/>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
         <systemColor name="systemMintColor">
