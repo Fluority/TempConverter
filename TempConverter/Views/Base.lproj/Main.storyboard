@@ -204,7 +204,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User: Liene Neimane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mz3-Lz-p5V">
-                                <rect key="frame" x="44" y="108" width="158" height="21"/>
+                                <rect key="frame" x="44" y="92" width="158" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -217,13 +217,15 @@
                             <constraint firstItem="MIj-Ay-hqK" firstAttribute="top" secondItem="9IO-BX-0ml" secondAttribute="top" constant="63" id="3k2-Un-DdE"/>
                             <constraint firstItem="9TO-cc-6yW" firstAttribute="bottom" secondItem="9IO-BX-0ml" secondAttribute="bottom" id="4N6-Yw-cFP"/>
                             <constraint firstItem="9TO-cc-6yW" firstAttribute="top" secondItem="9IO-BX-0ml" secondAttribute="top" id="FHd-Ou-lMe"/>
+                            <constraint firstItem="mz3-Lz-p5V" firstAttribute="leading" secondItem="9IO-BX-0ml" secondAttribute="leading" constant="44" id="X8B-IT-yRq"/>
                             <constraint firstItem="9IO-BX-0ml" firstAttribute="trailing" secondItem="MIj-Ay-hqK" secondAttribute="trailing" constant="104" id="Y56-dy-34v"/>
                             <constraint firstItem="9IO-BX-0ml" firstAttribute="bottom" secondItem="mz3-Lz-p5V" secondAttribute="bottom" constant="419" id="aDd-I5-Jbp"/>
                             <constraint firstItem="9TO-cc-6yW" firstAttribute="leading" secondItem="9IO-BX-0ml" secondAttribute="leading" id="bcg-p7-bcl"/>
                             <constraint firstItem="9IO-BX-0ml" firstAttribute="trailing" secondItem="mz3-Lz-p5V" secondAttribute="trailing" constant="118" id="cf8-dG-iQh"/>
-                            <constraint firstItem="mz3-Lz-p5V" firstAttribute="top" secondItem="MIj-Ay-hqK" secondAttribute="bottom" constant="24" id="d0C-0X-GhQ"/>
                             <constraint firstItem="mz3-Lz-p5V" firstAttribute="leading" secondItem="9IO-BX-0ml" secondAttribute="leading" constant="44" id="eFY-kl-bFz"/>
                             <constraint firstItem="9IO-BX-0ml" firstAttribute="bottom" secondItem="MIj-Ay-hqK" secondAttribute="bottom" constant="464" id="iad-3c-11K"/>
+                            <constraint firstItem="9IO-BX-0ml" firstAttribute="trailing" secondItem="mz3-Lz-p5V" secondAttribute="trailing" constant="118" id="tJv-zf-1dY"/>
+                            <constraint firstItem="mz3-Lz-p5V" firstAttribute="top" secondItem="MIj-Ay-hqK" secondAttribute="bottom" constant="8" symbolic="YES" id="yEf-vq-qHB"/>
                             <constraint firstItem="MIj-Ay-hqK" firstAttribute="leading" secondItem="9IO-BX-0ml" secondAttribute="leading" constant="44" id="yR9-yg-Rve"/>
                         </constraints>
                     </view>
