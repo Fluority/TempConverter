@@ -119,6 +119,7 @@
                     <connections>
                         <outlet property="celsiusLabel" destination="MyJ-Fr-e7H" id="4yj-rz-UKP"/>
                         <outlet property="resultLabel" destination="OcE-jj-pzG" id="r6W-ek-ZoR"/>
+                        <outlet property="tempSegment" destination="eyt-oV-Ose" id="QMt-Rr-2dM"/>
                         <outlet property="tempSlider" destination="9rZ-dt-BvS" id="drd-hS-4On"/>
                     </connections>
                 </viewController>
