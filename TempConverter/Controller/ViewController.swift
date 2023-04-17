@@ -14,13 +14,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tempSlider: UISlider! {
         didSet {
+            // Slider values
             tempSlider.maximumValue = 100
             tempSlider.minimumValue = 0
             tempSlider.value = 0
         }
     }
     
-    @IBOutlet weak var tempSegment: UISegmentedControl! // Add this IBOutlet to connect to the segmented control in the storyboard
+    @IBOutlet weak var tempSegment: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
         
         let convertedTemps = convertTempFrom(celsius: celsiusTemp)
         
+        // Either Farenheit or Kelvin
         switch tempSegment.selectedSegmentIndex {
         case 0:
             resultLabel.text = String(format: "%.f Fº", convertedTemps.fahrenheit)
@@ -53,11 +55,10 @@ class ViewController: UIViewController {
         }
     }
     
+    // Changing the temperature
     func convertTempFrom(celsius: Int) -> (fahrenheit: Double, kelvin: Double) {
         let fahrenheit = Double(celsius)*9/5+32
         let kelvin = Double(celsius) + 273
         return (fahrenheit, kelvin)
     }
 }
-
-
