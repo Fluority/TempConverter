@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Un-wL-CMf">
-    <device id="retina4_0" orientation="portrait" appearance="dark"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Un-wL-CMf">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -15,15 +15,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TempConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" alpha="0.59999999999999998" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="ifO-SZ-rd3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="ifO-SZ-rd3">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" name="ButtonSet"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp Converter from Cº to Fº , Kº" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-6R-3IK">
-                                <rect key="frame" x="72.5" y="104" width="175" height="65"/>
+                                <rect key="frame" x="109" y="166.66666666666666" width="175" height="65"/>
                                 <color key="backgroundColor" red="0.9526788592338562" green="0.031933527439832687" blue="0.22497561573982239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="175" id="6Qj-Gs-cI8"/>
@@ -39,7 +39,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C º" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyJ-Fr-e7H">
-                                <rect key="frame" x="121" y="202" width="78" height="43"/>
+                                <rect key="frame" x="157.66666666666666" y="264.66666666666669" width="78" height="43"/>
                                 <color key="backgroundColor" red="0.83149164919999996" green="0.33564955000000002" blue="0.31222864989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="JZo-U7-68A"/>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fº" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcE-jj-pzG">
-                                <rect key="frame" x="123" y="319" width="74" height="42"/>
+                                <rect key="frame" x="159.66666666666666" y="381.66666666666669" width="74" height="42"/>
                                 <color key="backgroundColor" red="0.83149164919999996" green="0.33564955000000002" blue="0.31222864989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="IYW-22-0kh"/>
@@ -61,7 +61,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eyt-oV-Ose">
-                                <rect key="frame" x="39" y="480" width="242" height="32"/>
+                                <rect key="frame" x="39" y="730" width="315" height="32"/>
                                 <segments>
                                     <segment title="Fahrenheit"/>
                                     <segment title="Kelvin"/>
@@ -72,7 +72,7 @@
                                 </connections>
                             </segmentedControl>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" minimumValueImage="sun.max" catalog="system" maximumValueImage="sun.max.fill" translatesAutoresizingMaskIntoConstraints="NO" id="9rZ-dt-BvS">
-                                <rect key="frame" x="31" y="264" width="258" height="31"/>
+                                <rect key="frame" x="31" y="326.66666666666669" width="331" height="31"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <color key="minimumTrackTintColor" systemColor="systemYellowColor"/>
                                 <color key="thumbTintColor" systemColor="systemPinkColor"/>
@@ -87,7 +87,7 @@
                             <constraint firstItem="eyt-oV-Ose" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="4xD-QF-HfL"/>
                             <constraint firstItem="Ofi-6R-3IK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11.5" id="8B7-OT-Tem"/>
                             <constraint firstItem="ifO-SZ-rd3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D8q-s7-5MP"/>
-                            <constraint firstItem="ifO-SZ-rd3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HVp-nE-Ft6"/>
+                            <constraint firstItem="ifO-SZ-rd3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="HVp-nE-Ft6"/>
                             <constraint firstItem="Ofi-6R-3IK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HgS-k0-tzL"/>
                             <constraint firstItem="9rZ-dt-BvS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aAF-7C-lx2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eyt-oV-Ose" secondAttribute="bottom" constant="57" id="aZ6-6l-5l2"/>
@@ -118,6 +118,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="celsiusLabel" destination="MyJ-Fr-e7H" id="4yj-rz-UKP"/>
+                        <outlet property="explanationLabel" destination="Ofi-6R-3IK" id="v14-Mt-O9E"/>
                         <outlet property="resultLabel" destination="OcE-jj-pzG" id="r6W-ek-ZoR"/>
                         <outlet property="tempSegment" destination="eyt-oV-Ose" id="QMt-Rr-2dM"/>
                         <outlet property="tempSlider" destination="9rZ-dt-BvS" id="drd-hS-4On"/>
@@ -125,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1136.25" y="4.225352112676056"/>
+            <point key="canvasLocation" x="1135.1145038167938" y="4.2253521126760569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Bx5-Fb-1Pq">
@@ -133,7 +134,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Un-wL-CMf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="fPm-fd-kS1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -150,14 +151,14 @@
             <objects>
                 <viewController id="e7z-gw-zay" customClass="SettingsViewController" customModule="TempConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0B5-LE-FIM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Extra" translatesAutoresizingMaskIntoConstraints="NO" id="5Aa-sV-uVQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everything here is ok!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbi-dM-PYX">
-                                <rect key="frame" x="53" y="144" width="214" height="47"/>
+                                <rect key="frame" x="53" y="144" width="287" height="341"/>
                                 <color key="backgroundColor" red="0.00055158929899334908" green="0.969410240650177" blue="0.99614173173904419" alpha="0.21832659386641143" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -191,20 +192,20 @@
             <objects>
                 <viewController id="sgR-51-g27" customClass="InfoViewController" customModule="TempConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czB-jn-GCk">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Extra" translatesAutoresizingMaskIntoConstraints="NO" id="9TO-cc-6yW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: TempConverter" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIj-Ay-hqK">
-                                <rect key="frame" x="44" y="63" width="172" height="21"/>
+                                <rect key="frame" x="44" y="63" width="245" height="315"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User: Liene Neimane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mz3-Lz-p5V">
-                                <rect key="frame" x="44" y="92" width="158" height="37"/>
+                                <rect key="frame" x="44" y="386" width="231" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -243,7 +244,7 @@
         <image name="sun.max" catalog="system" width="128" height="125"/>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
         <namedColor name="ButtonSet">
-            <color red="0.088158160448074341" green="0.079278230667114258" blue="0.76205062866210938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.087999999523162842" green="0.079000003635883331" blue="0.76200002431869507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

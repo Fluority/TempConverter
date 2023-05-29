@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var celsiusLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
-    
+    @IBOutlet weak var explanationLabel: UILabel!
     @IBOutlet weak var tempSlider: UISlider! {
         didSet {
             // Slider values
@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         celsiusLabel.text = "Cº"
         updateResultLabelValue(value: tempSlider.value)
+        explanationLabel.layer.cornerRadius = 10
+        explanationLabel.clipsToBounds = true
     }
     
     @IBAction func sliderValueChanged(_ sender: Any) {
